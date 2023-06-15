@@ -31,3 +31,19 @@ public:
 		cout << "\nThe popped element is:" << stack_array[top] << endl; //step 2
 		top--; // step 3 decrement
 	}
+	//method for check if data is empty
+	bool empty() {
+		return (top == -1);
+	}
+
+	void display() {
+		if (empty()) {
+			cout << "\nStack is empty." << endl;
+		}
+		else {
+			for (int top = 0; top <= top;) {
+				cout << stack_array[top] << endl;
+			}
+		}
+	}
+};
