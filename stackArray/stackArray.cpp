@@ -16,3 +16,4 @@ public:
 			cout << "Number of data exceeds the limit." << endl;
 			return "";
 		}
+		top++; //step 2
